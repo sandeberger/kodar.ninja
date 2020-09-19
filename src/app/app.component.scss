@@ -1,5 +1,122 @@
-canvas#canvas {
+* {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+  }
+  
+  p.count {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 1.6rem;
+  }
+
+  canvas#canvas {
     display: block;
     background: #000;
     position: fixed !important;
   }
+  
+  ul#navigation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-align: center;
+    margin-right: 1.6rem;
+    font-size: 0.8rem;
+  }
+  
+  ul#navigation>li {
+    display: inline-block;
+  }
+  
+  body, html {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0,0,0,0.90);
+  font-size: 22px;
+  }
+  
+  #container {
+    position: relative;
+  }
+  #container canvas, #overlay {
+    position: absolute;
+      
+  }
+  canvas {
+    border: 1px solid black;
+  }
+  
+  
+  h1 {
+      font-size: 50px !important;
+  }
+  
+  h2 {
+      font-size: 32px !important;
+  }
+  
+  h3 {
+      font-size: 25px !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+      font-family: Avenir Next, SegoeUI, arial, sans-serif !important;
+      font-weight: 400;
+      margin: 10px 0;
+  }
+  
+  p {
+      font-family: "Georgia Pro", Georgia, Times, 'Times New Roman', serif !important;
+     font-size: 22px !important; 
+  }
+  
+  .row {
+      font-family: "Georgia Pro", Georgia, Times, 'Times New Roman', serif !important;
+     font-size: 22px !important; 
+  }
+  
+  #title {
+    top: 50%;
+    margin-right: -200px;
+    margin: 100px 150px 0 150px;  
+  }
+  
+  #btxt{
+      background: rgba(51, 60, 66, 0.55);
+      padding: 1em 2em;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .checked {
+    color: mediumpurple;
+  }
+  
+  
+  .head-background{
+      background-color: rgba(51, 60, 66, 0.55);
+  }
+  
+  
+  .row-background{
+      background-color: rgba(51, 60, 66, 0.55);
+      text-align: left;
+  }
+  
