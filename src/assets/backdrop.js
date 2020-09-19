@@ -72,9 +72,9 @@
                 y: 0
             };
             this.c = {
-                r: rand(0, 255),
-                g: rand(0, 255),
-                b: rand(200, 255)
+                r: rand(2, 50),
+                g: rand(2, 2),
+                b: rand(2, 50)
             };
         };
 
@@ -95,8 +95,8 @@
 
           ctx.save();
           ctx.lineWidth = this.lw;
-          ctx.globalCompositeOperation = 'lighter';
-          ctx.strokeStyle = 'rgb(' + this.c.r/20 + ', ' + this.c.g/20 + ', ' + this.c.b/10 + ')';
+          ctx.globalCompositeOperation = 'darker';
+          ctx.strokeStyle = 'rgb(' + this.c.r + ', ' + this.c.g + ', ' + this.c.b + ')';
 
           ctx.translate(this.x, this.y);
           ctx.scale(Math.cos(this.rad) * 2, Math.sin(this.rad) * 2);
