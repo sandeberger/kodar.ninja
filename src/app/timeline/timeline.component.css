@@ -73,6 +73,8 @@
     margin-left: 60px;
     margin-right: 30px;
     background: rgba(51, 60, 66, 0.55);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
     border-radius: 2px;
     padding: 1em; }
     .cd-timeline-content .timeline-content-info {

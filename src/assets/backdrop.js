@@ -72,9 +72,9 @@
                 y: 0
             };
             this.c = {
-                r: rand(2, 50),
-                g: rand(2, 2),
-                b: rand(2, 50)
+                r: rand(20, 50),
+                g: rand(20, 22),
+                b: rand(20, 50)
             };
         };
 
@@ -95,7 +95,7 @@
 
           ctx.save();
           ctx.lineWidth = this.lw;
-          ctx.globalCompositeOperation = 'darker';
+          ctx.globalCompositeOperation = 'darken';
           ctx.strokeStyle = 'rgb(' + this.c.r + ', ' + this.c.g + ', ' + this.c.b + ')';
 
           ctx.translate(this.x, this.y);
