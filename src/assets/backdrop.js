@@ -3,11 +3,12 @@
     window.addEventListener('load', function () {
         var canvas = document.getElementById('canvas');
         var overlay = document.getElementById('overlay');
-
+        
         if (!canvas || !canvas.getContext) {
             return;
         }
-    
+            
+
         /********************
           Random Number
         ********************/
