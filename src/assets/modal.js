@@ -1,7 +1,4 @@
 const showDialog = (id) => {
-  document.getElementById("dialog").classList.add('show')
-  const scrollY = document.documentElement.style.getPropertyValue('--scroll-y');
-  const body = document.body;
     
 
 /***/
@@ -12,7 +9,6 @@ const showDialog = (id) => {
           //var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1bIydJJY_-H9NHHhxca9U-jNmKjYUkln14v20N7klAGg/edit?usp=sharing');
           var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1gkyETRRwrCv3ats74cbgGXFp13ABtkkdKS7EcJ10waw/edit?usp=sharing');
           query.setQuery("select B,C,D where A like '"+id+"'");
-          //query.setQuery('select E,F,A,C');
           query.send(handleQueryResponse);
 
           function handleQueryResponse(response) {
@@ -36,11 +32,11 @@ const showDialog = (id) => {
             var dataTable = response.getDataTable();              
             chart.draw(dataTable, options);
 
-/*google.visualization.events.addListener(chart, 'select', function() {
-    var row = chart.getSelection()[0].row;
-    alert('You selected ' + dataTable.getValue(row, 0));
-  });              */
-              
+            /* show dialog */
+            document.getElementById("dialog").classList.add('show')
+            const scrollY = document.documentElement.style.getPropertyValue('--scroll-y');
+            const body = document.body;
+          
           }
         });
     

@@ -197,7 +197,7 @@ code {
 
 .google-visualization-table-page-number{
     color:#444444!important;
-    font-size: 16px !important;
+    font-size: 26px !important;
 }
 
 .viewCards .google-visualization-table-table {
@@ -207,11 +207,13 @@ code {
 	border-color: #D8D8D8!important;
 }
 
+.current  {
+    color: purple!important;
+}
+
 .google-visualization-table-page-next {
-    color:#444444!important;
-    font-size: 16px !important;
+    display: none!important;
 }
 .google-visualization-table-page-prev {
-    color:#444444!important;
-    font-size: 16px !important;
+    display: none!important;    
 }

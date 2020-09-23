@@ -27,7 +27,7 @@
         var mouseX = null;
         var mouseY = null;
         var triangles = [];
-        var triangleNum = 70; 
+        var triangleNum = 14; 
         var angle = 120;
         var radian = angle * Math.PI / 180;
         var ease = 0.5;
