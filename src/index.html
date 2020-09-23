@@ -8,15 +8,15 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script defer type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <script defer type="text/javascript" src="./assets/backdrop.js"></script>
   <script defer src="/assets/modal.js"></script>
 </head>
 <body>    
-  <div id='dialog'>
+  <div id='dialog' style="width: 80vw;" >
     <div id="timeline"></div>
     <button class="pulse" id='close' onClick='closeDialog(3)'>Avsluta</button>
   </div> 
   <app-root></app-root>  
+  <script type="text/javascript" src="./assets/backdrop.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();

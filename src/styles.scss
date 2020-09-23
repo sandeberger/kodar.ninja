@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap'); 
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -143,7 +145,7 @@ code {
 /*# sourceMappingURL=button.css.map */
 
 /* MODAL */
-#text {
+  #text {
     max-width: 800px;
   }
   #dialog {
@@ -212,8 +214,18 @@ code {
 }
 
 .google-visualization-table-page-next {
-    display: none!important;
+    color:#444444!important;
+    font-size: 26px !important;
 }
 .google-visualization-table-page-prev {
-    display: none!important;    
+    color:#444444!important;
+    font-size: 26px !important;
+}
+
+.goog-custom-button-inner-box {
+    border-color: rgba(0, 0, 0, 0.0);
+}
+
+.goog-custom-button-outer-box {
+    border-color: rgba(0, 0, 0, 0.0);
 }

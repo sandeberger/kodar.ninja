@@ -20,7 +20,7 @@ const showDialog = (id) => {
             var container = document.getElementById('timeline');
             var chart = new google.visualization.Table(container);
               
-            var cssClassNames = {
+            var cssClassNames = { 
                 'headerRow': 'head-background',
                 'tableRow': 'row-background',
                 'headerCell': 'head-background',
@@ -33,7 +33,9 @@ const showDialog = (id) => {
             chart.draw(dataTable, options);
 
             /* show dialog */
-            document.getElementById("dialog").classList.add('show')
+            
+            document.getElementById("dialog").classList.add('show');
+            
             const scrollY = document.documentElement.style.getPropertyValue('--scroll-y');
             const body = document.body;
           
