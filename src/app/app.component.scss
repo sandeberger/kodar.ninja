@@ -4,13 +4,6 @@
     color: #FFF;
   }
   
-  p.count {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 1.6rem;
-  }
-
   canvas#canvas {
     display: block;
     background: #202020;
@@ -26,7 +19,6 @@
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     text-align: center;
-    margin-right: 1.6rem;
     font-size: 0.8rem;
   }
   
@@ -34,13 +26,6 @@
     display: inline-block;
   }
   
-  body, html {
-  height: 100vh;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  color: rgba(0,0,0,0.90);
-  font-size: 22px;
-  }
   
   #container {
     position: relative;
