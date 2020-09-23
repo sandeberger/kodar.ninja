@@ -1,5 +1,12 @@
 <div id="container">    
-    <canvas id="canvas">Canvas not supported.</canvas>
+    <canvas id="canvas">Canvas not supported.</canvas>    
+    <script>
+        var canvas = document.getElementById('canvas');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    </script>
+    
+
     <div id="overlay"> 
         <div style="min-height: 100vh;">
             <app-title></app-title>
@@ -19,6 +26,7 @@
         <app-projects></app-projects>
         <br><br>
         <app-contact></app-contact>
-        <br><br>
+        <br><br><br><br>
     </div>
 </div>
+

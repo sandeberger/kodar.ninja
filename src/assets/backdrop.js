@@ -34,6 +34,9 @@
         var friction = 0.1;
         //var flg = true;
 
+        return;
+
+
         /********************
           Animation
         ********************/
