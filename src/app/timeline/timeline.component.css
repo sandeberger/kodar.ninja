@@ -81,7 +81,8 @@
       background: #2B343A;
       padding: 5px 10px;
       color: rgba(255, 255, 255, 0.7);
-      font-size: 12px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
       box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
       border-radius: 2px; }
       .cd-timeline-content .timeline-content-info i {
@@ -94,7 +95,8 @@
           display: block;
           width: 100%; } }
     .cd-timeline-content .content-skills {
-      font-size: 12px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
       padding: 0;
       margin-bottom: 0;
       display: flex;
@@ -119,11 +121,13 @@
   .cd-timeline-content h2 {
     color: rgba(255, 255, 255, 0.9);
     margin-top: 0;
+    font-weight: bold;
     margin-bottom: 5px; }
   
   .cd-timeline-content p, .cd-timeline-content .cd-date {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
     font-size: 0.8125rem; }
   
   .cd-timeline-content .cd-date {
@@ -136,7 +140,7 @@
   .cd-timeline-content::before {
     content: '';
     position: absolute;
-    top: 16px;
+    top: 20px;
     right: 100%;
     height: 0;
     width: 0;
@@ -145,16 +149,20 @@
   
   @media only screen and (min-width: 768px) {
     .cd-timeline-content h2 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
+      font-size: 1.5rem; }
+  
+    .cd-timeline-content p {
+      font-family: 'Josefin Sans', sans-serif;
       font-size: 20px;
       font-size: 1.25rem; }
   
-    .cd-timeline-content p {
-      font-size: 16px;
-      font-size: 1rem; }
-  
     .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+      font-family: 'Josefin Sans', sans-serif;
       font-size: 14px;
-      font-size: 0.875rem; } }
+      font-size: 0.5rem; } }
+      
   @media only screen and (min-width: 1170px) {
     .cd-timeline-content {
       color: white;
@@ -174,7 +182,8 @@
       width: 100%;
       left: 122%;
       top: 6px;
-      font-size: 16px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
       font-size: 1rem; }
   
     .cd-timeline-block:nth-child(even) .cd-timeline-content {
