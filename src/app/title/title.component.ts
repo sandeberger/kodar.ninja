@@ -12,4 +12,8 @@ export class TitleComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  jumpforward() {
+    window.location.hash = "jumphere";
+  }
+
 }
