@@ -9,9 +9,9 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script defer type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script defer src="/assets/modal.js"></script>
-  <script>
+  <script type="text/javascript">
     var host = "kodar.ninja";
-    if ((host == window.location.host) && (window.location.protocol != "https:"))
+    if ((host === window.location.host) && (window.location.protocol != "https:")){
       location.replace(`https:${location.href.substring(location.protocol.length)}`);
     }
   </script>
