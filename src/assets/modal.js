@@ -27,7 +27,7 @@ const showDialog = (id) => {
                 'tableCell': '',
                 'headerCell': 'head-background',
                 'rowNumberCell': 'head-background'};              
-            var options = {'showRowNumber': false, 'allowHtml': true, alternatingRowStyle: false, page: 'enable', pageSize: '10', pagingtype: 'simple', title: 'Projekt','cssClassNames': cssClassNames};              
+            var options = {width: '100%', height: '100%','showRowNumber': false, 'allowHtml': true, alternatingRowStyle: false, page: 'enable', pageSize: '10', pagingtype: 'simple', title: 'Projekt','cssClassNames': cssClassNames};              
               
             var dataTable = response.getDataTable();              
             chart.draw(dataTable, options);

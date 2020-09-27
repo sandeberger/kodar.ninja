@@ -192,6 +192,7 @@ code {
 
 .google-visualization-table gradient{
     background-color: rgba(0, 0, 0, 1.0);
+    width: 100% !important;
 }
 
 .google-visualization-table-div-page{
@@ -204,7 +205,8 @@ code {
 }
 
 .viewCards .google-visualization-table-table {
-	background-color: transparent!important;
+  background-color: transparent!important;
+  width: 100% !important;
 }
 .viewCards .google-visualization-table-td {
 	border-color: #D8D8D8!important;
